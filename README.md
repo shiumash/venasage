@@ -25,9 +25,9 @@ I was inspired Callum MacLeod's insightful Medium article ["Implementing RAG in 
 ## 🛠 Tech Stack
 
 ### Embedding & Semantic Search
-- **Embedding Model**: Hugging Face `all-MiniLM-L6-v2`
-- **Vector Database**: ChromaDB for efficient semantic retrieval
-- **Language Model**: Fine-tuned Llama 3.2
+- **Embedding Model**: [Hugging Face `all-MiniLM-L6-v2`](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2)
+- **Vector Database**: [ChromaDB](https://python.langchain.com/docs/integrations/vectorstores/chroma/) for efficient semantic retrieval
+- **Language Model**: Fine-tuned [Llama 3.2](https://www.llama.com/)
 
 ### Data Processing Capabilities
 - **HTML/XML Parsing**: Developed robust web scraping and parsing techniques
